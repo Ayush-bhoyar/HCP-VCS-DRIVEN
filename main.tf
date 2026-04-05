@@ -5,7 +5,8 @@ resource "aws_instance" "this" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "Ayush-Demo-Instance"
+    Name        = "Ayush-Demo-Instance"
     Environment = "Dev"
+    Project     = "HCP"
   }
 }

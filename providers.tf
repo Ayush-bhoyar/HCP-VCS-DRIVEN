@@ -7,14 +7,14 @@ terraform {
     }
   }
 
-  cloud { 
-    
-    organization = "Ayush-HCP" 
+  cloud {
 
-    workspaces { 
-      name = "Ayush-CLI-HCP-DEMO" 
-    } 
-  } 
+    organization = "Ayush-HCP"
+
+    workspaces {
+      name = "Ayush-CLI-HCP-DEMO"
+    }
+  }
 
 }
 
