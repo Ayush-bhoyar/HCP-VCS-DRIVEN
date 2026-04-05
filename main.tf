@@ -6,5 +6,6 @@ resource "aws_instance" "this" {
 
   tags = {
     Name = "Ayush-Demo-Instance"
+    Environment = "Dev"
   }
 }
